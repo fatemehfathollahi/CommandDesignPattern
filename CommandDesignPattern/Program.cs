@@ -13,7 +13,7 @@ namespace CommandDesignPattern
             var invoker = new Invoker();
             invoker.PressButton(turnOn);
             invoker.PressButton(print);
-            invoker.PressButton(turnOff);
+            invoker.PressButton(turnOff); 
            
         }
     }
